@@ -5,7 +5,7 @@ CFLAGS=-c -g -m32 -fno-pic -masm=intel
 LINKFLAGS=-m32 -no-pie
 INCPATHS=include
 CSRCS=src/check.c src/list.c
-ASSRCS=task_3.asm
+ASSRCS=Dfs.asm
 TESTSDIR= tests
 
 OBJECTS=$(CSRCS:.c=.o) $(ASSRCS:.asm=.o)

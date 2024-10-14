@@ -1,13 +1,9 @@
-; subtask 2 - bsearch
-
 section .data
-    ;pastram valoarea de return a functiei
     value dd -1
 
 section .text
     global binary_search
     extern printf
-    ;; no extern functions allowed
 
 binary_search:
     push ebp 
